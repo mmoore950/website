@@ -316,16 +316,12 @@ section {
   border-radius: 2rem;
 }
 
-#about .arrow {
-  position: relative;
-  bottom: 10rem;
-}
-
 .arrow {
   height: 3.5rem;
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 2rem;
 }
 
 
@@ -341,7 +337,7 @@ section {
 
 .section-container {
   gap: 4rem;
-  height: 80%;
+  height: fit-content%;
 }
 
 .section_pic-container {

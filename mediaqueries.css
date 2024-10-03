@@ -10,6 +10,9 @@
   #projects {
     height: fit-content;
   }
+  section {
+    margin-bottom: 10rem;
+  }
 }
 
 @media screen and (max-width: 1200px) {
