@@ -337,7 +337,7 @@ section {
 
 .section-container {
   gap: 4rem;
-  height: fit-content%;
+  height: fit-content;
 }
 
 .section_pic-container {
