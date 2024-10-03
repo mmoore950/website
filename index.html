@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Michael Moore</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+  <nav id="desktop-nav">
+    <div class="logo">Michael Moore</div>
+    <div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <nav id="hamburger-nav">
+    <div class="logo">Michael Moore</div>
+    <div class="hamburger-menu">
+      <div class="hamburger-icon" onclick=""></div>
+      <span></span>
+      <span></span>
+      <span></span>
+      </div>
+      <div class="menu-links">
+        <li><a href="#about" onclick="toggleMenu()">About</a></li>
+        <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+        <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+        <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+      </div>
+    </div>
+  </nav>
+  <section id="profile">
+    <div class="section_pic-container">
+      <img id="profile-pic" src="./assets/profile-pic.jpg" alt="">
+    </div>
+    <div class="section_text">
+      <p class="section_text_p1">Hello, I'm</p>
+      <h1 class="title">Michael Moore</h1>
+      <p class="section_text_p2">Software Engineer</p>
+      <div class="btn-container">
+        <button
+          class="btn btn-color-2"
+          onclick="window.open('./assets/resume.pdf')">
+          Download Resume
+        </button>
+        <button class="btn btn-color-1" onclick="location.href='./#contact'">
+          Contact Info
+        </button>
+      </div>
+      <div id="socials-container">
+        <img src="./assets/linkedin.png" class="icon" onclick="location.href='https://www.linkedin.com/in/mikejmoore02/'" alt="">
+        <img 
+        src="./assets/github.png" 
+        alt=""
+        class="icon"
+        onclick="location.href='https://github.com/mmoore950'">
+      </div>
+    </div>
+  </section>
+  <section id="about">
+    <p class="section_text_p1">Get to Know More</p>
+    <h1 class="title">About Me</h1>
+    <div class="section-container">
+      <div class="section_pic-container">
+        <img src="./assets/about-pic.jpg" alt="" class="about-pic">
+      </div>
+      <div class="about-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <img src="./assets/experience.png" alt="" class="icon">
+            <h3>Experience</h3>
+            <p>1 year <br>Web Development</p>
+          </div>
+          <div class="details-container">
+            <img src="./assets/education.png" alt="" class="icon">
+            <h3>Education</h3>
+            <p>B.A. Bachelors Degree in Computer Science</p>
+          </div>
+        </div>
+        <div class="text-container">
+          <p>Hi! I'm Michael, a recent Cornell Computer Science graduate with a
+            passion for creating full stack web applications! I also have interests
+            in data analytics, as well as machine learning and AI.
+          </p>
+        </div>
+      </div>
+    </div>
+    <img src="./assets/arrow.png" 
+    alt="" 
+    class="icon arrow" 
+    onclick="location.href='./#experience'">
+  </section>
+  <section id="experience">
+    <p class="section_text_p1">Explore My</p>
+    <h1 class="title">Experience</h1>
+    <div class="experience-details-container">
+      <div class="about-containers">
+        <div class="details-container">
+          <h2 class="experience-sub-title">Languages</h2>
+          <div class="article-container">
+            <article>
+              <img 
+              src="./assets/checkmark.png" 
+              alt=""
+              class="icon">
+              <div>
+                <h3>HTML</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <img 
+              src="./assets/checkmark.png" 
+              alt=""
+              class="icon">
+              <div>
+                <h3>CSS</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <img 
+              src="./assets/checkmark.png" 
+              alt=""
+              class="icon">
+              <div>
+                <h3>Python</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <img 
+              src="./assets/checkmark.png" 
+              alt=""
+              class="icon">
+              <div>
+                <h3>JavaScript</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <img 
+              src="./assets/checkmark.png" 
+              alt=""
+              class="icon">
+              <div>
+                <h3>TypeScript</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img 
+              src="./assets/checkmark.png" 
+              alt=""
+              class="icon">
+              <div>
+                <h3>C++</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+          </div>
+        </div>
+        <div class="details-container">
+          <h2 class="experience-sub-title">Frameworks, Databases, Tools</h2>
+          <div class="article-container">
+            <article>
+              <img 
+              src="./assets/checkmark.png" 
+              alt=""
+              class="icon">
+              <div>
+                <h3>PostgreSQL</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <img 
+              src="./assets/checkmark.png" 
+              alt=""
+              class="icon">
+              <div>
+                <h3>MongoDB</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <img 
+              src="./assets/checkmark.png" 
+              alt=""
+              class="icon">
+              <div>
+                <h3>Node JS</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <img 
+              src="./assets/checkmark.png" 
+              alt=""
+              class="icon">
+              <div>
+                <h3>Express JS</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img 
+              src="./assets/checkmark.png" 
+              alt=""
+              class="icon">
+              <div>
+                <h3>Git</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <img 
+              src="./assets/checkmark.png" 
+              alt=""
+              class="icon">
+              <div>
+                <h3>React</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </div>
+    <img 
+    src="./assets/arrow.png" 
+    alt=""
+    class="icon arrow"
+    onclick="location.href='./#projects'">
+  </section>
+  <section id="projects">
+    <p class="section_text_p1">Browse My Recent</p>
+    <h1 class="title">Projects</h1>
+    <div class="experience-details-container">
+      <div class="about-containers">
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img 
+            src="./assets/project-1.png" 
+            alt=""
+            class="project-img">
+          </div>
+          <h2 class="experience-sub-title project-title">AI CheckersBot</h2>
+          <div class="btn-container">
+            <button
+              class="btn btn-color-2 project-btn"
+              onclick="location.href='https://github.com/mmoore950/CheckersBot-Pro-AI'">
+              Github
+            </button>
+          </div>
+        </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img 
+            src="./assets/project-2.png" 
+            alt=""
+            class="project-img">
+          </div>
+          <h2 class="experience-sub-title project-title">Tic-Tac-Toe</h2>
+          <div class="btn-container">
+            <button
+              class="btn btn-color-2 project-btn"
+              onclick="location.href='https://github.com/mmoore950/tic-tac-toe'">
+            Github
+          </button>
+          </div>
+        </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img 
+            src="./assets/project-3.png" 
+            alt=""
+            class="project-img">
+          </div>
+          <h2 class="experience-sub-title project-title">DishDuet</h2>
+          <div class="btn-container">
+            <button
+              class="btn btn-color-2 project-btn"
+              onclick="location.href='https://github.com/mmoore950/DishDuet-Flask'">
+              Github
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="visualizers-container">
+      <div class="visualizer">
+        <h1>Bubble Sort</h1>
+        <div class='container' id="bubbleContainer"></div>
+        <div>
+          <button onClick="visualizers.bubbleSort.init()">Initialize</button>
+          <button onClick="visualizers.bubbleSort.play()">Play</button>
+        </div>
+      </div>
+      
+      <div class="visualizer">
+        <h1>Insertion Sort</h1>
+        <div class='container' id="insertionContainer"></div>
+        <div>
+          <button onClick="visualizers.insertionSort.init()">Initialize</button>
+          <button onClick="visualizers.insertionSort.play()">Play</button>
+        </div>
+      </div>
+      <div class="visualizer">
+        <h1>Selection Sort</h1>
+        <div class='container' id="selectionContainer"></div>
+        <div>
+          <button onClick="visualizers.selectionSort.init()">Initialize</button>
+          <button onClick="visualizers.selectionSort.play()">Play</button>
+        </div>
+      </div>
+    </div>
+    <img 
+    src="./assets/arrow.png" 
+    alt=""
+    class="icon arrow"
+    onclick="location.href='./#contact'">
+  </section>
+  <section id="contact">
+    <p class="section_text_p1">Get in Touch</p>
+    <h1 class="title">Contact Me</h1>
+    <div class="contact-info-upper-container">
+      <div class="contact-info-container">
+        <img 
+        src="./assets/email.png" 
+        alt=""
+        class="icon contact-icon email-icon">
+        <p><a href="mailto:mjm733@cornell.edu">mjm733@cornell.edu</a></p>
+      </div>
+      <div class="contact-info-container">
+        <img 
+        src="./assets/linkedin.png" 
+        alt=""
+        class="icon contact-icon">
+        <p><a href="https://www.linkedin.com/in/mikejmoore02/">LinkedIn</a></p>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <nav>
+      <div class="nav-links-container">
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <p>Copyright &#169; 2024 Michael Moore</p>
+  </footer>
+   <script src="script.js"></script>
+</body>
+</html>
